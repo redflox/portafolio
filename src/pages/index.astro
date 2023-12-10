@@ -4,6 +4,7 @@ import IntroCard from '../components/IntroCard.astro';
 import ProjectsCard from '../components/SpotifyCard.astro';
 import PortafolioCard from '../components/PortfolioCard.astro';
 import BlogCard from '../components/BlogCard.astro';
+import ChatCard from 'src/components/ChatCard.jsx';
 ---
 
 <Layout 
@@ -15,6 +16,7 @@ import BlogCard from '../components/BlogCard.astro';
 			<IntroCard/>
 			<ProjectsCard/>
 			<BlogCard/>
+			<ChatCard client:load/>
 			<!-- <PortafolioCard /> -->
 
 		</div>

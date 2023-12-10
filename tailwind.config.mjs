@@ -11,6 +11,7 @@ export default {
 			aspectRatio: {
 				'3/2': '3 / 2',
 				'5/2': '5 / 2',
+				'2/1': '2 / 1',
 			},
 			blur: {
 				xs: '1px',
